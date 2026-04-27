@@ -46,6 +46,8 @@ The web app runs on `http://localhost:3000`.
 ```bash
 cd apps/api
 ./mvnw spring-boot:run
+# Windows PowerShell
+./mvnw.cmd spring-boot:run
 ```
 
 The API runs on `http://localhost:8080`.
@@ -55,7 +57,10 @@ The API runs on `http://localhost:8080`.
 ```bash
 npm run build --prefix apps/web
 npm run lint --prefix apps/web
-cd apps/api && ./mvnw test
+cd apps/api
+./mvnw test
+# Windows PowerShell
+./mvnw.cmd test
 ```
 
 ## API Surface
