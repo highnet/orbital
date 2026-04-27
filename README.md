@@ -1,6 +1,6 @@
 # Orbital
 
-Orbital is a real-time satellite viewer built around a simple idea: take live orbital data, turn it into a clean normalized snapshot, and render it on a globe that feels like an actual product instead of a demo.
+Orbital is a real-time satellite viewer built around a simple idea: take live orbital data, turn it into a clean normalized snapshot, and render it on a globe.
 
 Today the app pulls active satellite data from CelesTrak, exposes it through a Spring Boot API, and renders it in a Next.js globe experience that propagates positions in the browser with `satellite.js`.
 
